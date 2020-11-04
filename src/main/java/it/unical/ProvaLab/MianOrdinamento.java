@@ -8,6 +8,7 @@ public class MianOrdinamento {
 	public static void main(String[] args) {
 		ArrayList<Integer> l= new ArrayList<>();
 		int n=12;
+		int n2=23;
 		l.add(5);
 		l.add(1);
 		l.add(3);
@@ -15,5 +16,6 @@ public class MianOrdinamento {
 		l.add(6);
 		Ordinamento o = new Ordinamento();
 		System.out.println(o.MyListUtil(l, n));
+		System.out.println(o.MyListUtil(l, n2));
 	}
 }
