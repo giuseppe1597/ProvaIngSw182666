@@ -15,7 +15,12 @@ public class Ordinamento {
 		else {
 			Collections.sort(l);
 			for(int i=l.size()-1;i>=0;i--) {
+				System.out.println(l.get(i));
 				l2.add(l.get(i));
+			}
+			l.clear();
+			for(int i=0;i<l2.size();i++) {
+				l.add(l2.get(i));
 			}
 		}
 		

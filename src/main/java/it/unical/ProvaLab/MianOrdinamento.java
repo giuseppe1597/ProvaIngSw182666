@@ -7,7 +7,7 @@ public class MianOrdinamento {
 	
 	public static void main(String[] args) {
 		ArrayList<Integer> l= new ArrayList<>();
-		int n=22;
+		int n=12;
 		l.add(5);
 		l.add(1);
 		l.add(3);
